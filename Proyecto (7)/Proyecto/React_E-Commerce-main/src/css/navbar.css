@@ -1,0 +1,31 @@
+/* Estilos para alinear el logo y el texto */
+.navbar-logo {
+    max-width: 170px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  /* Alineación de la navbar */
+  .navbar {
+    display: flex;
+    align-items: center; /* Alinea todos los elementos verticalmente */
+    justify-content: space-between; /* Distribuye los elementos */
+    background: linear-gradient(to bottom, #f89151, #FFA500);
+  }
+  
+  .navbar li{
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Espacio entre los items de la navbar */
+  }
+  
+  /* Estilos adicionales para los botones */
+  .navbar .btn {
+    padding: 0.4rem 1rem;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,32 @@
+.hero{
+    margin-top: 20px;
+}
+
+.homePage{
+  background: linear-gradient(to bottom, #ffa60098, #84aadb);
+}
+
+.card-img {
+    height: 750px;
+    object-fit: cover;
+    background-attachment: fixed;
+  }
+  
+  .overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+    color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .content {
+    border-radius: 10px;
+  }
+  
+  .title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .subtitle {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
